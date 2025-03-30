@@ -14,11 +14,11 @@ const Onboarding = () => {
         colors={["#00000000", "#000", "#000", "#000"]}
         className="absolute bottom-0 w-full h-1/2"
       />
-      <View className="w-full h-1/2 justify-center px-10 items-center bg-gradient-to-t from-black to-transparent">
-        <Text className="text text-white text-4xl text-center font-sbold">
+      <View className="w-full h-1/2 justify-center px-4 items-center bg-gradient-to-t from-black to-transparent">
+        <Text className="text text-white text-4xl text-center font-sbold mb-3">
           Fall in love with Coffee in a blissful delight
         </Text>
-        <Text className="text-white/80 font-slight text-center ">
+        <Text className="text-white/50 font-slight px-5 text-center mb-10">
           Welcome to our cozy coffee corner, where every cup is delightful for
           you!!
         </Text>
