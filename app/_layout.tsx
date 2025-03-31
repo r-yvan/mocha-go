@@ -17,11 +17,12 @@ export default function Layout() {
     "Sora-ExtraLight": require("~/assets/fonts/sora/Sora-ExtraLight.ttf"),
     "Sora-ExtraBold": require("~/assets/fonts/sora/Sora-ExtraBold.ttf"),
   });
-  
+
   return (
     <Stack>
       <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="(auth)/signin" options={{ headerShown: false }} />
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
     </Stack>
   );
 }

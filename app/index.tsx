@@ -2,8 +2,10 @@ import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
 import { Image } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { useRouter } from "expo-router";
 
 const Onboarding = () => {
+  const router = useRouter();
   return (
     <View className="flex-1 justify-end h-full w-full bg-[#050505]">
       <Image
@@ -22,7 +24,7 @@ const Onboarding = () => {
           Welcome to our cozy coffee corner, where every cup is delightful for
           you!!
         </Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => router.push("/(tabs)")}>
           <View className="bg-[#C67C48] px-20 py-4 rounded-3xl">
             <Text className="text-white tex-lg font-sbold">Get Started</Text>
           </View>
