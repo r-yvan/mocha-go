@@ -3,7 +3,6 @@ import React from "react";
 import { House } from "lucide-react-native";
 import {
   IconCategory2,
-  IconHome,
   IconListDetails,
   IconUserSquareRounded,
 } from "@tabler/icons-react-native";

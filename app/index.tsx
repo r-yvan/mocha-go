@@ -7,7 +7,7 @@ import { useRouter } from "expo-router";
 const Onboarding = () => {
   const router = useRouter();
   return (
-    <View className="flex-1 justify-end h-full w-full bg-[#050505]">
+  <View className="flex-1 justify-end h-full w-full bg-[#050505]">
       <Image
         source={require("~/assets/images/onboarding-image.png")}
         className="w-full absolute top-0"
@@ -25,7 +25,7 @@ const Onboarding = () => {
           you!!
         </Text>
         <TouchableOpacity onPress={() => router.push("/(tabs)")}>
-          <View className="bg-[#C67C48] px-20 py-4 rounded-3xl">
+          <View className="bg-[#C67C48] px-20 py-4 pb-5 rounded-3xl">
             <Text className="text-white tex-lg font-sbold">Get Started</Text>
           </View>
         </TouchableOpacity>
