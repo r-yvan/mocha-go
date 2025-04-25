@@ -7,7 +7,7 @@ import { useRouter } from "expo-router";
 const Onboarding = () => {
   const router = useRouter();
   return (
-  <View className="flex-1 justify-end h-full w-full bg-[#050505]">
+    <View className="flex-1 justify-end h-full w-full bg-[#050505]">
       <Image
         source={require("~/assets/images/onboarding-image.png")}
         className="w-full absolute top-0"

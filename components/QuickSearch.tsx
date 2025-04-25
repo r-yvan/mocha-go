@@ -4,7 +4,7 @@ import React from "react";
 
 const QuickSearch = ({ text }: { text: string }) => (
   <Pressable>
-    <View className="flex py-1 pb-2 bg-white/70 rounded-xl px-3">
+    <View className="flex py-1 pb-2 bg-[#FFFFFF50] rounded-xl px-3">
       <Text className="font-sregular">{text}</Text>
     </View>
   </Pressable>
