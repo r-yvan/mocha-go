@@ -2,6 +2,7 @@ import { View, Text } from "react-native";
 import React from "react";
 import QuickSearch from "~/components/QuickSearch";
 import Advertisement from "~/components/Advertisement";
+import CoffeCard from "~/components/CoffeCard";
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
         <QuickSearch text="Machiato" />
         <QuickSearch text="Latte" />
         <QuickSearch text="Caffe Mocha" />
+      </View>
+      <View>
+        <CoffeCard />
       </View>
     </View>
   );
