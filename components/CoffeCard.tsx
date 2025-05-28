@@ -4,11 +4,11 @@ import { IconPlus } from "@tabler/icons-react-native";
 
 const CoffeCard = () => {
   return (
-    <View className="bg-blue-400 p-4 gap-3 w-56 rounded-2xl">
+    <View className="p-2 gap-2 w-56 rounded-3xl">
       <Image
         source={require("~/assets/images/coffee-1.png")}
         resizeMode="contain"
-        className="w-48 h-48 rounded-2xl overflow-hidden"
+        className="w-52 h-52 rounded-3xl overflow-hidden"
       />
       <View>
         <Text className="font-sbold text-2xl">Caffe Mocha</Text>
@@ -16,7 +16,7 @@ const CoffeCard = () => {
       </View>
       <View className="flex-row justify-between items-center">
         <View>
-          <Text className="text-3xl font-sbold">$4.5</Text>
+          <Text className="text-2xl font-sbold">$4.5</Text>
         </View>
         <View className="bg-[#c67c4e] justify-center items-center rounded-2xl p-2">
           <IconPlus size={30} color="#FFF" />

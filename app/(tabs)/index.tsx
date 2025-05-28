@@ -13,9 +13,12 @@ const Home = () => {
       <View className="flex w-full flex-row gap-1">
         <QuickSearch text="Machiato" />
         <QuickSearch text="Latte" />
+        <QuickSearch text="Americano" />
         <QuickSearch text="Caffe Mocha" />
       </View>
-      <View>
+      <View className="flex-row flex-wrap gap-3 pl-6">
+        <CoffeCard />
+        <CoffeCard />
         <CoffeCard />
       </View>
     </View>

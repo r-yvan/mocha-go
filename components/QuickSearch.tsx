@@ -4,8 +4,8 @@ import React from "react";
 
 const QuickSearch = ({ text }: { text: string }) => (
   <Pressable>
-    <View className="flex py-1 pb-2 bg-[#FFFFFF50] rounded-xl px-3">
-      <Text className="font-sregular">{text}</Text>
+    <View className="flex py-1 pb-2 bg-[#00000020] rounded-xl px-3">
+      <Text className="font-sbold">{text}</Text>
     </View>
   </Pressable>
 );
